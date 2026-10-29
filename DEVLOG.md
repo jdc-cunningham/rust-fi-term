@@ -20,6 +20,10 @@ I have a bunch of cheap devices and I feel bad having them/not using them so I'm
 
 Anyway made some progress, still trying to break things out. I added a linter/rust extension ahh man there are those nasty red squiggles again. You gonna learn today boy
 
+10:26 PM
+
+I'll do it though, give my 6th Carbon X1 a chance
+
 ---
 
 ### 10/27/2026
