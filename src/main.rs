@@ -1,11 +1,9 @@
 mod models;
-mod database_service;
+// mod database_service;
+mod user_input;
 
 use rusqlite::{params, Connection, Result};
 
-fn main() -> Result<()> {
-    // connect to sqlite
-    let conn = Connection::open("rust_fi_term.db")?;
-
-    Ok(())
+fn main() {
+    user_input::man_page();
 }

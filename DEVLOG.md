@@ -44,6 +44,26 @@ Well that was pointless, I look at it like "yeap that's a motherboard" lol
 
 At least I cleaned it out
 
+I can already tell there are some things I don't know (obviously) but like say I do the question like a man page
+
+You have to then switch input processes and keep it runnin in main... I can do that in other languages but how in rust
+
+11:41 PM
+
+What do I want?
+
+I want a basic display of options
+
+Ideally when you run it you'll see a list of your finances, charts, stuff like that but I don't have a vision yet of how that's laid out
+
+So I'll just do some basic text stuff for now
+
+I've done a lot of finance apps and I've had google sheets act as an API to feed between desktop and mobile apps... I usually have my own Raspberry Pis acting as servers too on a local network
+
+I like the idea of local first then sync with remote... and then you've got that problem of who's right/current
+
+
+
 ---
 
 ### 10/27/2026
