@@ -38,6 +38,12 @@ I wrote earlier how I'm happy I have drive to work on this
 
 Finance is one of the biggest problems in my life... I have no savings, I have almost $100K of debt, I live check to check... I shouldn't though I have a six-fig job. I need to work on it, have self control.
 
+11:38 PM
+
+Well that was pointless, I look at it like "yeap that's a motherboard" lol
+
+At least I cleaned it out
+
 ---
 
 ### 10/27/2026
