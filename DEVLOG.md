@@ -28,6 +28,16 @@ I'll do it though, give my 6th Carbon X1 a chance
 
 It was funny, installing rusqlite too like 20 mins on the ASUS Eee PC lmao
 
+11:29 PM
+
+Ugh... this working out of two different computers git pull rebase merge crap is annoying
+
+Need to take this laptop apart real quick and see why the screen goes black randomly
+
+I wrote earlier how I'm happy I have drive to work on this
+
+Finance is one of the biggest problems in my life... I have no savings, I have almost $100K of debt, I live check to check... I shouldn't though I have a six-fig job. I need to work on it, have self control.
+
 ---
 
 ### 10/27/2026
