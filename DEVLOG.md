@@ -24,6 +24,10 @@ Anyway made some progress, still trying to break things out. I added a linter/ru
 
 I'll do it though, give my 6th Carbon X1 a chance
 
+11:07 PM
+
+It was funny, installing rusqlite too like 20 mins on the ASUS Eee PC lmao
+
 ---
 
 ### 10/27/2026
