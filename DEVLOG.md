@@ -1,4 +1,5 @@
 - [x] make a combo input for a credit card (10/29/2026)
+- [x] code to make DB and table for cc (10/29/2026)
 - [ ] save it to the credit card table
 - [ ] do the same for cash and loan
 - [ ] figure out how to do rendering on the terminal based on available size
@@ -26,6 +27,10 @@ Alright got a basic choice going
 9:22 PM
 
 Cool so I've got a working credit card info input, I still have to actually store it but that's progress
+
+9:53 PM
+
+Alright got the DB setup pretty cool
 
 ---
 
