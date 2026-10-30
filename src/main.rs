@@ -13,6 +13,8 @@ fn main() {
     }
 
     if user_choice == "add credit card" {
-        println!("add credit card selected");
+        let credit_card = user_input::add_credit_card();
+        println!("Card info:");
+        println!("{:?}", credit_card);
     }
 }

@@ -1,4 +1,5 @@
-- [ ] make a combo input for a credit card and then add it to the credit card table
+- [x] make a combo input for a credit card (10/29/2026)
+- [ ] save it to the credit card table
 - [ ] do the same for cash and loan
 - [ ] figure out how to do rendering on the terminal based on available size
 - [ ] come up with a column layout per design
@@ -21,6 +22,10 @@ Confusion of the highest order
 8:38 PM
 
 Alright got a basic choice going
+
+9:22 PM
+
+Cool so I've got a working credit card info input, I still have to actually store it but that's progress
 
 ---
 

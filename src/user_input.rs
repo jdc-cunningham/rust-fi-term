@@ -1,5 +1,5 @@
-use std::io::{self, Write};
-use crate::models;
+use std::io::{self};
+use crate::models::CreditCard;
 
 // temporary until UI esablished
 pub fn man_page() {
@@ -106,8 +106,8 @@ pub fn add_credit_card() -> CreditCard {
 
   credit_limit = credit_limit_input.trim().parse::<f32>().unwrap();
 
-  return models::CreditCard {
-    name: name,
+  return CreditCard {
+    name: name.trim().to_string(),
     balance: balance,
     min_due: min_due,
     due_date: due_date,
