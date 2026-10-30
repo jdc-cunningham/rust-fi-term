@@ -6,7 +6,8 @@ use rusqlite::{params, Connection, Result};
 
 fn main() {
     // init DB
-    
+    // the let _ is a lazy workaround
+    let _ = database_service::init_db();
 
     // ready for user input
     user_input::man_page();

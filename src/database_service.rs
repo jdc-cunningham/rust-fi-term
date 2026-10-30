@@ -36,10 +36,10 @@ pub fn create_db() -> Result<()> {
 
 pub fn init_db() -> Result<()> {
     if !db_exists() {
-        create_db();
+        let _ = create_db();
     } else {
         let conn = Connection::open("rust_fi_term.db")?;
-        check_table_exists(&conn, "credit_cards");
+        let _ = check_table_exists(&conn, "credit_cards");
     }
 
     Ok(())
