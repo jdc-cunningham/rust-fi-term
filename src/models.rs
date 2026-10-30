@@ -6,6 +6,6 @@ struct CreditCard {
     min_due: i32,
     due_date: i32,
     is_closed: bool,
-    apr: i32,
+    apr: f32,
     credit_limit: f32
 }

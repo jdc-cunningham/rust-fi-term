@@ -15,7 +15,7 @@ pub fn create_db() -> Result<()> {
           min_due INTEGER NOT NULL,
           due_date INTEGER NOT NULL,
           is_closed INTEGER NOT NULL,
-          apr REAL NOT NULL,
+          apr INTEGER NOT NULL,
           credit_limit REAL NOT NULL
       ) STRICT;",
   )?;
