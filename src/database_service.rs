@@ -1,7 +1,17 @@
 use rusqlite::{params, Connection, Result};
+use std::path::Path;
 
 pub fn db_exists() -> bool {
+    return Path::new("rust_fi_term.db").exists();
+}
 
+pub fn check_table_exists(conn: &Connection, table_name: &str) -> Result<bool> {
+    let mut stmt = conn.prepare(
+        "SELECT name from rust_fi_term WHERE type='table' AND name=?1"
+    )?;
+
+    let exists: bool = stmt.exists([table_name])?;
+    Ok(exists)
 }
 
 pub fn create_db() -> Result<()> {
@@ -18,5 +28,19 @@ pub fn create_db() -> Result<()> {
           apr INTEGER NOT NULL,
           credit_limit REAL NOT NULL
       ) STRICT;",
+       ()
   )?;
+
+  Ok(())
+}
+
+pub fn init_db() -> Result<()> {
+    if !db_exists() {
+        create_db();
+    } else {
+        let conn = Connection::open("rust_fi_term.db")?;
+        check_table_exists(&conn, "credit_cards");
+    }
+
+    Ok(())
 }

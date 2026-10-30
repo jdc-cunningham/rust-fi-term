@@ -1,10 +1,14 @@
 mod models;
-// mod database_service;
+mod database_service;
 mod user_input;
 
 use rusqlite::{params, Connection, Result};
 
 fn main() {
+    // init DB
+    
+
+    // ready for user input
     user_input::man_page();
     let user_choice = user_input::wait_for_man_page_choice();
 
