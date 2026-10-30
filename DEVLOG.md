@@ -4,6 +4,26 @@
 - [ ] come up with a column layout per design
 - [ ] add graphs
 
+### 10/29/2026
+
+8:14 PM
+
+Ahh man I keep napping, feeling tired right now
+
+I wanted to get the full flow down when asking to add credit card info
+
+Let me do my studying real quick
+
+8:27 PM
+
+Confusion of the highest order
+
+8:38 PM
+
+Alright got a basic choice going
+
+---
+
 ### 10/28/2026
 
 9:03 PM
